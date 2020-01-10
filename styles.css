@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+		
+}
+nav {
+	padding-top: 20px;
+	overflow: auto;
+	height: 120px;
+	border: 2px solid grey;
+}
+nav .logo {
+	font-style: bold;
+	padding-left: 80px;
+	float: left;
+	font-size: 40px;
+}
+nav ul {
+	margin: 0;
+	margin-left: 400px;
+	font-size: 24px;
+	font-family: ubuntu;
+	text-transform: uppercase;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+header {
+	background-image: url('https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619');
+	height: 500px;
+	margin: 0;
+}
+header h1 {
+	margin: 0;
+	
+}
+.headerText {
+	color: white;
+	margin: 0 auto;
+	height: 300px;
+	
+}
