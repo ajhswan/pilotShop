@@ -56,7 +56,26 @@ button {
 	background-color: transparent;
 	height: 40px;
 	width: 130px;
+	margin: 0 auto;	
+}
+.container {
+	overflow: auto;
+	background-color: transparent;
 	margin: 0 auto;
-	vertical-align: middle;
-	
+	width: 800px;
+}
+.box1 {
+	float: left;
+	background-color: #A9A9A9;
+	margin-right: 30px;
+}
+.box2 {
+	float: left;
+	background-color: #000080;
+	margin-right: 30px;
+}
+.box3 {
+	float: left;
+	background-color: #ADD8E6;
+	margin-right: 30px;
 }
