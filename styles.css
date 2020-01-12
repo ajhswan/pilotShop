@@ -2,11 +2,15 @@
 	box-sizing: border-box;
 		
 }
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
 nav {
-	padding-top: 20px;
+	padding: 20px 0 20px 0;
 	overflow: auto;
-	height: 120px;
-	border: 2px solid grey;
+	/*height: 120px;*/
+	/*border: 2px solid grey;*/
 }
 nav .logo {
 	font-style: bold;
@@ -17,9 +21,9 @@ nav .logo {
 }
 nav ul {
 	margin: 0;
-	margin-left: 400px;
-	font-size: 24px;
-	font-family: 'ubuntu';
+	margin-left: 550px;
+	font-size: 16px;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 
@@ -27,7 +31,10 @@ nav li {
 	float: left;
 	list-style: none;
 	margin-right: 25px;
-	padding-top: 10px;
+	padding: 12px;
+}
+li:hover {
+	border: 2px solid;
 }
 header {
 	background-image: url('https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619');
@@ -43,39 +50,60 @@ header h1 {
 	margin: 0 auto;
 	height: 300px;
 	text-align: center;
-	padding-top: 40px;
-	
-	
+	padding-top: 40px;	
 }
 h1 {
-	font-size: 60px;
+	font-size: 74px;
+}
+h3 {
+	font-size: 19px;
 }
 button {
 	color: white;
 	border: 2px solid white;
 	background-color: transparent;
-	height: 40px;
-	width: 130px;
+	height: 50px;
+	width: 140px;
 	margin: 0 auto;	
 }
+button:hover {
+	background-color: #7FDBFF;
+	border: none;
+}
+button:focus {
+	border: none;
+	outline: none;
+}
+/*button:active {
+	border: 2px solid white;
+}*/
 .container {
 	overflow: auto;
 	background-color: transparent;
 	margin: 0 auto;
-	width: 800px;
+	width: 990px;
+	margin-top: -150px;
 }
 .box1 {
 	float: left;
-	background-color: #A9A9A9;
-	margin-right: 30px;
+	background-color: #001f3f;
+	margin-right: 42px;
+	height: 190px;
+	width: 300px;
+	text-align: center;
 }
 .box2 {
 	float: left;
-	background-color: #000080;
-	margin-right: 30px;
+	background-color: #0074D9;
+	margin-right: 42px;
+	height: 190px;
+	width: 300px;
+	text-align: center;
 }
 .box3 {
 	float: left;
-	background-color: #ADD8E6;
-	margin-right: 30px;
+	background-color: #7FDBFF;
+	/*margin-right: 30px;*/
+	height: 190px;
+	width: 300px;
 }
